@@ -1,4 +1,5 @@
-# vueproject
+# arcgis-webpack-vue-calcite
+Vue cli app using calcite maps and arcgis webpack plugin
 
 ## Project setup
 ```
@@ -27,3 +28,4 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
