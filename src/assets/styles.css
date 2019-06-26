@@ -1,4 +1,4 @@
-@import url('https://js.arcgis.com/4.10/esri/css/main.css');
+@import "~arcgis-js-api/themes/light/main.css";
 
 html,
 body {
