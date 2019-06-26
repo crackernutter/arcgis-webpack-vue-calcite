@@ -45,11 +45,12 @@ export default {
   },
   data: function() { return {
       panels:[
-        {"panelid": "info-panel", "name": "Info", "glyphicon": "glyphicon glyphicon-info-sign"},
-        {"panelid": "legend-panel", "name": "Legend", "glyphicon": "glyphicon glyphicon-th"},
-        {"panelid": "query-panel", "name": "Query", "glyphicon": "glyphicon glyphicon-search"},
-        {"panelid": "login-panel", "name": "Login", "glyphicon": "glyphicon glyphicon-user"},
-        {"panelid": "bottom-panel", "name": "Bottom", "glyphicon": "glyphicon glyphicon-list-alt", "position":"bottom"}
+        {"panelid": "query-panel", "name": "Query", "glyphicon": "esri-icon-question"},
+        {"panelid": "info-panel", "name": "About", "glyphicon": "esri-icon-notice-round"},
+        {"panelid": "legend-panel", "name": "Legend", "glyphicon": "esri-icon-collection"},
+        {"panelid": "bottom-panel", "name": "Bottom", "glyphicon": "esri-icon-layer-list", "position":"bottom"},
+         {"panelid": "login-panel", "name": "Login", "glyphicon": "esri-icon-user"}, 
+     
       ],
        activePanels: [],
       //just used to map intialPanels to active panels so as not to repeat code...

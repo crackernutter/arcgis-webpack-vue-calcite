@@ -28,7 +28,9 @@ module.exports = {
       },
     configureWebpack:{
         plugins: [
-          new ArcGISPlugin(),
+          new ArcGISPlugin({
+            useDefaultAssetLoaders:false
+          }),
           // new webpack.NormalModuleReplacementPlugin(
           //   // dojo/domReady (only works if the DOM is ready when invoked)
           //   /^dojo\/domReady!/, (data) => {
