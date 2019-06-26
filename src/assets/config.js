@@ -1,21 +1,4 @@
 export const appconfig = {
-    options: {
-
-    // tell Dojo where to load other packages
-    dojoConfig: {
-        async: true,
-        packages: [
-            {
-                location: "//esri.github.io/calcite-maps/dist/vendor/dojo-bootstrap",
-                name: 'bootstrap'
-            },
-            {
-                name: "calcite-maps",
-                location: "//esri.github.io/calcite-maps/dist/js/dojo"
-            }
-        ]
-    }
-},
 template : {  // autocasts as new PopupTemplate()
     title: "{SYSTEM} - {TRAILNAME}",
     content: [{

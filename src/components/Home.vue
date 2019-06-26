@@ -46,7 +46,7 @@ export default {
   data: function() { return {
       panels:[
         {"panelid": "info-panel", "name": "Info", "glyphicon": "glyphicon glyphicon-info-sign"},
-        {"panelid": "legend-panel", "name": "Legend", "glyphicon": "glyphicon glyphicon-list-alt"},
+        {"panelid": "legend-panel", "name": "Legend", "glyphicon": "glyphicon glyphicon-th"},
         {"panelid": "query-panel", "name": "Query", "glyphicon": "glyphicon glyphicon-search"},
         {"panelid": "login-panel", "name": "Login", "glyphicon": "glyphicon glyphicon-user"},
         {"panelid": "bottom-panel", "name": "Bottom", "glyphicon": "glyphicon glyphicon-list-alt", "position":"bottom"}
