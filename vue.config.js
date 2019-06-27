@@ -1,5 +1,6 @@
 const ArcGISPlugin = require("@arcgis/webpack-plugin");
 const path = require('path');
+const webpack = require('webpack');
 module.exports = {
   
     //runtimeCompiler: false
@@ -63,6 +64,13 @@ module.exports = {
             global: false,
             //fs: "empty"
           },
+          optimization: {
+            minimize: true,
+            splitChunks: {
+              minChunks:Infinity,
+                chunks: 'all',
+            }
+        }
     },
     publicPath: process.env.NODE_ENV === 'production' ? "/" : '/'
     
