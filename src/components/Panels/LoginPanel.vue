@@ -36,11 +36,9 @@ export default {
             });
     },
     logout() {
-      esriLoader.loadModules(["esri/identity/IdentityManager"]).then(([esriId]) => {
       esriId.initialize(this.identityManagerJSON);
       esriId.destroyCredentials();
       this.loggedIn = false;
-    });
   }
   }
 };
