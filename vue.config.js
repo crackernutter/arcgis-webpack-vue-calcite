@@ -4,6 +4,7 @@ module.exports = {
   
     //runtimeCompiler: false
     chainWebpack: config => {
+      config.entry('app').prepend('@babel/polyfill/noConflict').end();
       // config.resolve.symlinks(false);
       // config.resolve.set('symlinks', false);
       config.module.rule('eslint')
